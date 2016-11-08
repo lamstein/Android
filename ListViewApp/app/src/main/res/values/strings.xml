@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ListViewApp</string>
+    <string name="time_added">Added: %s</string>
+</resources>

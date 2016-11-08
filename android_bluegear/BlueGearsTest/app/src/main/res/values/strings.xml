@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BlueGearsTest</string>
+    <string name="time_added">Added: %s</string>
+</resources>

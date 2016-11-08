@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:padding="10dp">
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/money_128px"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:id="@+id/tvItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/ivIcon"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/tvItemDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="13sp"
+        android:layout_toRightOf="@id/ivIcon"
+        android:layout_below="@id/tvItem"
+        android:paddingBottom="5dp"/>
+    <TextView
+        android:id="@+id/tvTimeAdded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_added"
+        android:textStyle="italic"
+        android:textSize="10sp"
+        android:layout_below="@id/tvItemDesc"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
